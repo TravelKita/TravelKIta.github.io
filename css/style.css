@@ -25,7 +25,12 @@ Table Of Contents:
 	--primary-light: #212d37;
 	--secondary: #0ee951;
 	--tertiary: #00dabf;
-	--gradient: linear-gradient(to right, #0ee951, #00dabf);
+	--gradient: linear-gradient(to right, #0092ff,#00dabf);
+}
+
+html {
+	overflow-x : hidden;
+	overflow-y : scroll;
 }
 
 h1,
@@ -65,7 +70,6 @@ li {
 /* Section Background */
 .home,
 .about,
-.services,
 .plans,
 .work,
 .contact {
@@ -73,18 +77,26 @@ li {
 	position: relative;
 }
 
+.services {
+	height : 180vh;
+	position: relative;
+}
+
+.comm {
+	color: var(--tertiary);
+}
+
 .services,
-.work,
 .contact,
-.testimonial,
 .footer {
   	background-color: var(--primary);
 }
 
 .about,
-.plans,
+.work,
 .company,
 .newsletter,
+.testimonial,
 .location {
   	background-color: var(--primary-light);
 }
@@ -107,7 +119,7 @@ li {
 		linear,
 		left top,
 		left bottom,
-		from(#0ee951),
+		from(#0092ff),
 		to(#00dabf)
 	);
 	background-clip: text;

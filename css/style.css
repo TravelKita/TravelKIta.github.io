@@ -63,6 +63,14 @@ a {
 	text-decoration: none;
 }
 
+.link-comm {
+	color: var(--tertiary);
+	text-decoration: none;
+	display : flex;
+	flex-direction: row;
+	align-items: center;
+}
+
 li {
   	list-style-type: none;
 }
@@ -80,10 +88,6 @@ li {
 .services {
 	height : 180vh;
 	position: relative;
-}
-
-.comm {
-	color: var(--tertiary);
 }
 
 .services,

@@ -132,6 +132,7 @@ li {
 }
 
 .navbar-nav a:hover,
+.link-comm:hover,
 .footer a:hover,
 .footer .fab:hover {
 	cursor: pointer;

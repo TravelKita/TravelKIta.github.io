@@ -63,11 +63,15 @@ a {
 	text-decoration: none;
 }
 
+.link-info {
+	color : var(--tertiary);
+	text-decoration: none;
+}
+
 .link-comm {
 	color: var(--tertiary);
 	text-decoration: none;
 	display : flex;
-	flex-direction: row;
 	align-items: center;
 }
 
@@ -92,6 +96,7 @@ li {
 
 .services,
 .contact,
+.maps,
 .footer {
   	background-color: var(--primary);
 }
@@ -99,7 +104,7 @@ li {
 .about,
 .work,
 .company,
-.newsletter,
+.information,
 .testimonial,
 .location {
   	background-color: var(--primary-light);
@@ -132,6 +137,7 @@ li {
 }
 
 .navbar-nav a:hover,
+.link-info:hover,
 .link-comm:hover,
 .footer a:hover,
 .footer .fab:hover {
